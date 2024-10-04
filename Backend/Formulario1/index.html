@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="styles.css">
+    <title>Formulario Venta</title>
+</head>
+<body>
+
+    <div class="formulario">
+        <div class="head">
+            <h2>Formulario Venta</h2>
+        </div>
+        <div>
+            <form method="post">
+                <div class="bloques">
+                    <label class="etiqueta">Nombre del producto : </label>
+                    <input type="text" name="producto" required>
+                </div>
+                <div class="bloques">
+                    <label class="etiqueta">Cantidad : </label>
+                    <input type="number" name="cantidad" min="1" required>
+                </div>
+                <div class="bloques">
+                    <label class="etiqueta">Precio : </label>
+                    <input type="number" name="cantidad" min="1" required>
+                </div>
+                <div class="botones"></div>
+                    <input id="submit" type="submit" value="Enviar">
+                    <input type="reset" value="Limpiar">
+                </div>
+            </form>
+        </div>
+    </div>
+    
+</body>
+</html>
